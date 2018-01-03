@@ -38,6 +38,10 @@ nav ul {
   list-style-type: none;
 }
 
+nav li {
+  text-align: left;
+}
+
 nav a {
   display: block;
   padding: .5em .75em;
@@ -64,7 +68,7 @@ nav a:hover {
   html {
     font-size: 110%;
     line-height: 1.4;
-}
+  }
 
 }
 
@@ -80,6 +84,7 @@ nav a:hover {
     padding-right: 1rem;
     text-align: left;
   }
+
   h1,
   nav {
     display: inline-block;
